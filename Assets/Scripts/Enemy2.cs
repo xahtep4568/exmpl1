@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Enemy2 : Enemy
 {
-
+	public float secondSpeed = 1;
     // Use this for initialization
     void Start()
     {

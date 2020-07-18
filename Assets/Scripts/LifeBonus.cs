@@ -7,6 +7,6 @@ public class LifeBonus : TemplateBonus
 
     protected override void TakeBonus()
     {
-        PlayerManager.Instance.Life++;
+        PlayerManager.Instance.Life+=2;
     }
 }
