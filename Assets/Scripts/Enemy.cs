@@ -6,7 +6,7 @@ public abstract class Enemy : TemplateShips
 {
     [SerializeField]private List<GameObject> bonuses;
     public GameObject bulletPref;
-    public float attackTime = 0;
+    public float attackTime = 1;
     protected int maxDelayShoot = 100;
     float startPos;
     int model;
